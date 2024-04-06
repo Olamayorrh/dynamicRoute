@@ -1,0 +1,39 @@
+.product{
+    width: 800px;
+    border:2px solid black;
+    border-radius: 10px;
+    display:flex;
+    padding:20px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+.image{
+    width: 100%;
+   
+    margin: 10px;
+    margin-top: 80px;
+}
+
+.info{
+    width:100%;
+
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.info h1{
+    color:aqua;
+}
+
+.btn{
+    border: 2px solid aqua;
+    padding:5px;
+    border-radius: 5px;
+    color: crimson;
+}
