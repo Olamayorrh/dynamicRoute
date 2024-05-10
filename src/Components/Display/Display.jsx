@@ -1,4 +1,4 @@
-
+import React from 'react'
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./Display.css"
@@ -23,7 +23,7 @@ const Display = ()=>{
         
     }) 
     .catch(err =>console.log(err))
-    }, [details])
+    }, [])
     
     
      
@@ -34,7 +34,7 @@ const Display = ()=>{
             {   <div className="group">
                 <h2>{details.title}</h2>
                 <div  className="item">
-                <div><img src={details.image} style={{width:'400px'}}/></div>
+                <div><img src={details.image} style={{width:'400px'}} id='imgg'/></div>
                 <div className="details">
                     <h2>{details.category} <span>{details.id}</span></h2>
                     <p>{details.description}</p>

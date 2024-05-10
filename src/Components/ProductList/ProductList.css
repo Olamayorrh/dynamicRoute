@@ -37,3 +37,22 @@
     border-radius: 5px;
     color: crimson;
 }
+
+@media (max-width:768px){
+    .product{
+        width:100%;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+   
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+
+
+    
+}
